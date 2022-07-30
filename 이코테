@@ -1,0 +1,17 @@
+import random
+
+number = random.randint(0, 100)
+    
+while True :
+  
+    user = int(input("answer"))
+    if user == number:
+        print("Just right")
+        break
+    if user < number:
+        print("Too low")
+    else:
+        print("Too high")
+
+
+print("프로그램이 종료되었습니다.")
